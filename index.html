@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Logins</h1>
+        <form action="/Logins" method="post">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        
+     
+           
+    </form>
+    <div class="navbar">
+        <a href="password.html">Forget Password</a>
+    </div>
+    
+        <h1>Sign Up</h1>
+        <form action="/signup" method="post">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <button type="submit">Sign Up</button>
+        </form>
+        <div class="navbar">
+            <a href="Verification.html">Report Problem</a>
+            <style>
+                .navbar a {color: rgb(93, 11, 245);}
+            </style>
+        </div>
+
+        
+        <style>
+            body {
+ background-color: #f2f2f2;
+ font-family: Arial, sans-serif;
+ background-image: url(figma\ 2.jpeg);
+}
+
+.container {
+ width: 300px;
+ padding: 16px;
+ background-color: white;
+ margin: 100px auto;
+ border: 1px solid black;
+ border-radius: 4px;
+}
+
+h1 {
+ text-align: center;
+ color: #4e4e4e;
+}
+
+input[type=text], input[type=password], input[type=email] {
+ width: 100%;
+ padding: 12px 20px;
+ margin: 8px 0;
+ display: inline-block;
+ border: 1px solid #ccc;
+ box-sizing: border-box;
+}
+
+button {
+ background-color: #4CAF50;
+ color: white;
+ padding: 14px 20px;
+ margin: 8px 0;
+ border: none;
+ cursor: pointer;
+ width: 100%;
+}
+
+button:hover {
+ opacity: 0.8;
+}
+        </style>
+    </div>
+</body>
+
+</html>
